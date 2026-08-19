@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedhaVIT Proctor Guard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo-box">🛡️</div>
+      <div>
+        <h1>MedhaVIT Guard</h1>
+        <p class="subtitle">Exam Integrity Monitor</p>
+      </div>
+    </div>
+
+    <div id="status-card" class="status-card loading">
+      <div id="status-icon">🔄</div>
+      <div id="status-text">Scanning extensions...</div>
+    </div>
+
+    <div id="details-box" class="details-box hidden">
+      <h3>Active Extensions (<span id="ext-count">0</span>):</h3>
+      <ul id="ext-list"></ul>
+    </div>
+
+    <button id="refresh-btn" class="refresh-btn">🔄 Re-scan System</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "medhavit-proctor-extension",
+  "version": "1.0.0",
+  "description": "MedhaVIT Proctor Guard browser extension for detecting active extensions during online quizzes.",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArhamShah01/Medhavit-Extension.git"
+  },
+  "keywords": [
+    "medhavit",
+    "proctor",
+    "chrome-extension",
+    "anti-cheat",
+    "manifest-v3"
+  ],
+  "author": "MedhaVIT",
+  "license": "MIT"
+}
