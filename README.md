@@ -1,56 +1,55 @@
-# MedhaVIT Proctor Guard Extension
+# 🛡️ MedhaVIT Proctor Guard Extension
 
-MedhaVIT Proctor Guard is an official browser security extension designed to ensure exam integrity by detecting active third-party extensions during MedhaVIT online quizzes.
-
----
-
-## 🛠️ Requirements
-
-Before installing, ensure your system meets the following requirements:
-* **Operating System**: Windows 10/11, macOS (10.15+), Linux (Ubuntu, Debian, Fedora, Arch), or ChromeOS.
-* **Supported Browsers**: Google Chrome, Microsoft Edge, Brave Browser, Opera, Mozilla Firefox, or Apple Safari.
-* **Tools (Optional for Git source install)**: [Git](https://git-scm.com/) and [Node.js / npm](https://nodejs.org/).
+> **Official Security Extension for MedhaVIT Exam Integrity**  
+> Detects and blocks unauthorized third-party browser extensions during online quiz attempts to ensure fair assessment environments.
 
 ---
+
 
 ## 📥 Installation Guide
 
-### Method 1: Installing via Browser Extension Stores
+### Method 1: Install from ZIP File / Unpacked Folder (Manual Setup)
 
-* **Chrome / Edge / Brave / Opera**: Install directly from the [Chrome Web Store](https://chromewebstore.google.com/) *(Store link available upon publishing)*.
-* **Firefox**: Install directly from [Firefox Add-ons](https://addons.mozilla.org/) *(Store link available upon publishing)*.
+#### 🌐 Google Chrome / Microsoft Edge / Brave / Opera / Vivaldi (Chromium Browsers)
+
+1. **Download & Extract**:
+   - Download the `medhavit-proctor-guard.zip` archive (or clone/download this repository).
+   - Unzip/extract the contents to a folder on your computer (e.g., `Medhavit-Extension`).
+
+2. **Open Extensions Page**:
+   - **Chrome**: Open a new tab and go to `chrome://extensions`
+   - **Edge**: Go to `edge://extensions`
+   - **Brave**: Go to `brave://extensions`
+
+3. **Enable Developer Mode**:
+   - Look for the **Developer mode** toggle switch (usually in the top-right or top-left corner) and turn it **ON**.
+
+4. **Load the Extension**:
+   - Click the **Load unpacked** button.
+   - Select the folder containing `manifest.json` (the extracted `Medhavit-Extension` folder).
+
+5. **Verify**:
+   - You should now see **MedhaVIT Proctor Guard** active in your extension list!
 
 ---
 
-### Method 2: Installing via Source Code / Developer Mode
+#### 🦊 Mozilla Firefox
 
-#### 1. Download the Source Code
-Choose one of the following:
-* **Option A (Via Git)**: Open terminal and run:
-  ```bash
-  git clone https://github.com/ArhamShah01/Medhavit-Extension.git
-  ```
-* **Option B (Direct Download)**: Click **Code ➔ Download ZIP** on GitHub, then unzip the downloaded `.zip` folder.
+1. **Download & Extract**:
+   - Download and unzip `medhavit-proctor-guard.zip`.
+
+2. **Open Firefox Debugging**:
+   - Type `about:debugging#/runtime/this-firefox` into the address bar and press **Enter**.
+
+3. **Load Add-on**:
+   - Click **Load Temporary Add-on...**
+   - Navigate to the extracted folder and select `manifest.json` (or select the `.zip` directly).
+
+4. **Verify**:
+   - The extension will appear under **Temporary Extensions**.
 
 ---
 
-#### 2. Load into Your Browser
+### Method 2: Install via Browser Extension Stores
 
-##### 🌐 Chromium Browsers (Google Chrome, Microsoft Edge, Brave, Opera)
-1. Open your browser and navigate to:
-   * Chrome: `chrome://extensions`
-   * Edge: `edge://extensions`
-   * Brave: `brave://extensions`
-2. Enable **Developer mode** (toggle in top-right corner).
-3. Click **Load unpacked** (top-left).
-4. Select the `Medhavit-Extension` folder.
-
-##### 🦊 Mozilla Firefox (Windows, macOS, Linux)
-1. Open Firefox and navigate to `about:debugging#/runtime/this-firefox`.
-2. Click **Load Temporary Add-on...**
-3. Select `manifest.json` inside the `Medhavit-Extension` folder.
-
-##### 🍎 Apple Safari (macOS)
-1. Open Safari ➔ **Settings** (`Cmd + ,`) ➔ **Advanced** ➔ Check **Show features for web developers**.
-2. From the top menu bar, select **Develop** ➔ Check **Allow Unsigned Extensions**.
-3. Select the `Medhavit-Extension` folder.
+Currently under progress
